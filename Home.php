@@ -4,81 +4,82 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <header>
-            <h1>Web Flash Game</h1>
+            <h1 class="titre">Web Flash Game</h1>
         </header>
         <main>
             <section>
-                <div>
-                    <img src="nbrmystere.jpg" alt="afficher image jeu nbr mystere">
-                    <p>Nombre mystère</p>
-                </div>
-                <div>
-                    <img src="memory.jpg" alt="afficher image jeu memory">
-                    <p>Memory</p>
-                </div>
-                <div>
-                    <img src="PPC.jpg" alt="afficher image jeu pierre feuille ciseux">
-                    <p>Pierre/Papier/Ciseau</p>
-                </div>
-                <div>
-                    <img src="morpion.jpg" alt="afficher image jeu morpion">
-                    <p>Morpion</p>
-                </div>
-                <div>
-                    <img src="labyrinth.jpg" alt="afficher image jeu labyrinthe">
-                    <p>Labyrinthe</p>
-                </div>
+                <article>
+                    <img src="nbrmystere.jpg" alt="afficher image jeu nbr mystere" class="logo">
+                    <p class="titre">Nombre mystère</p>
+                </article>
+                <article>
+                    <img src="memory.jpg" alt="afficher image jeu memory" class="logo">
+                    <p class="titre">Memory</p>
+                </article>
+                <article>
+                    <img src="PPC.jpg" alt="afficher image jeu pierre feuille ciseux" class="logo">
+                    <p class="titre">Pierre/Papier/Ciseau</p>
+                </article>
+                <article>
+                    <img src="morpion.jpg" alt="afficher image jeu morpion" class="logo">
+                    <p class="titre">Morpion</p>
+                </article>
+                <article>
+                    <img src="labyrinth.jpg" alt="afficher image jeu labyrinthe" class="logo">
+                    <p class="titre">Labyrinthe</p>
+                </article>
             </section> 
             <section>
-                <div>
-                    <img src="clicktaupe.jpg" alt="afficher image jeu click taupe">
-                    <p>Click Taupe</p>
-                </div>
-                <div>
-                    <img src="snake.jpg" alt="afficher image jeu snake">
-                    <p>Snake</p>
-                </div>
-                <div>
-                    <img src="pendu.jpg" alt="afficher image jeu pendu">
-                    <p>Pendu</p>
-                </div>
-                <div>
-                    <img src="rexjump.jpg" alt="afficher image jeu Rex jump">
-                    <p>Rex Jump</p>
-                </div>
+                <article>
+                    <img src="clicktaupe.jpg" alt="afficher image jeu click taupe" class="logo">
+                    <p class="titre">Click Taupe</p>
+                </article>
+                <article>
+                    <img src="snake.jpg" alt="afficher image jeu snake" class="logo">
+                    <p class="titre">Snake</p>
+                </article>
+                <article>
+                    <img src="pendu.jpg" alt="afficher image jeu pendu" class="logo">
+                    <p class="titre">Pendu</p>
+                </article>
+                <article>
+                    <img src="rexjump.jpg" alt="afficher image jeu Rex jump" class="logo">
+                    <p class="titre">Rex Jump</p>
+                </article>
             </section>  
             <section>
-                <div>
-                    <img src="bataillenavale.jpg" alt="afficher image jeu bataille naval">
-                    <p>Bataille Navale</p>
-                </div>
-                <div>
-                    <img src="demineur.jpg" alt="afficher image jeu démineur">
-                    <p>Démineur</p>
-                </div>
-                <div>
-                    <img src="combatpokemon.jpg" alt="afficher image jeu combats pokémon">
-                    <p>Combats Pokémon</p>
-                </div>
+                <article>
+                    <img src="bataillenavale.jpg" alt="afficher image jeu bataille naval" class="logo">
+                    <p class="titre">Bataille Navale</p>
+                </article>
+                <article>
+                    <img src="demineur.jpg" alt="afficher image jeu démineur" class="logo">
+                    <p class="titre">Démineur</p>
+                </article>
+                <article>
+                    <img src="combatpokemon.jpg" alt="afficher image jeu combats pokémon" class="logo">
+                    <p class="titre">Combats Pokémon</p>
+                </article>
             </section>  
             <section>
-                <div>
-                    <img src="blackjack.jpg" alt="afficher image jeu black jack">
-                    <p>Black Jack</p>
-                </div>
-                <div>
-                    <img src="jeuoie.jpg" alt="afficher image jeu de l'oie">
-                    <p>Jeu de l'oie</p>
-                </div>
+                <article>
+                    <img src="blackjack.jpg" alt="afficher image jeu black jack" class="logo">
+                    <p class="titre">Black Jack</p>
+                </article>
+                <article>
+                    <img src="jeuoie.jpg" alt="afficher image jeu de l'oie" class="logo">
+                    <p class="titre">Jeu de l'oie</p>
+                </article>
             </section>  
             <section>
-                <div>
-                    <img src="jdr.jpg" alt="afficher image jeu jdr">  
-                    <p>JDR</p>
-                </div>
+                <article>
+                    <img src="jdr.jpg" alt="afficher image jeu jdr" class="logo">  
+                    <p class="titre">JDR</p>
+                </article>
             </section>      
         </main>
     </body>

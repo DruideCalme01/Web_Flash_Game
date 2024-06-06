@@ -11,15 +11,11 @@
         </header>
         <main>
             <section>
-            <!--memory
-            pierre feuille ciseux
-            morpion
-            labyrinthe-->
-                <img src="nbrmyster.jpg" alt="afficher image jeu nbr mystere">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+                <img src="nbrmystere.jpg" alt="afficher image jeu nbr mystere">
+                <img src="memory.jpg" alt="afficher image jeu memory">
+                <img src="PPC.jpg" alt="afficher image jeu pierre feuille ciseux">
+                <img src="morpion.jpg" alt="afficher image jeu morpion">
+                <img src="labyrinth.jpg" alt="afficher image jeu labyrinthe">
             </section> 
             <section>
                 <img src="" alt="">

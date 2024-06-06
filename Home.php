@@ -10,17 +10,6 @@
             <h1>Web Flash Game</h1>
         </header>
         <main>
-            <!--click taupe
-            snake
-            pendu
-            Rex jump
-            battaille naval
-            démineur
-            combats pokemon
-            black jack
-            risk
-            jdr 
-            -->
             <section>
                 <div>
                     <img src="nbrmystere.jpg" alt="afficher image jeu nbr mystere">

@@ -22,29 +22,74 @@
             jdr 
             -->
             <section>
-                <img src="nbrmystere.jpg" alt="afficher image jeu nbr mystere">
-                <img src="memory.jpg" alt="afficher image jeu memory">
-                <img src="PPC.jpg" alt="afficher image jeu pierre feuille ciseux">
-                <img src="morpion.jpg" alt="afficher image jeu morpion">
-                <img src="labyrinth.jpg" alt="afficher image jeu labyrinthe">
+                <div>
+                    <img src="nbrmystere.jpg" alt="afficher image jeu nbr mystere">
+                    <p>Nombre mystère</p>
+                </div>
+                <div>
+                    <img src="memory.jpg" alt="afficher image jeu memory">
+                    <p>Memory</p>
+                </div>
+                <div>
+                    <img src="PPC.jpg" alt="afficher image jeu pierre feuille ciseux">
+                    <p>Pierre/Papier/Ciseau</p>
+                </div>
+                <div>
+                    <img src="morpion.jpg" alt="afficher image jeu morpion">
+                    <p>Morpion</p>
+                </div>
+                <div>
+                    <img src="labyrinth.jpg" alt="afficher image jeu labyrinthe">
+                    <p>Labyrinthe</p>
+                </div>
             </section> 
             <section>
-                <img src="clicktaupe.jpg" alt="afficher image jeu click taupe">
-                <img src="snake.jpg" alt="afficher image jeu snake">
-                <img src="pendu.jpg" alt="afficher image jeu pendu">
-                <img src="rexjump.jpg" alt="afficher image jeu Rex jump">
+                <div>
+                    <img src="clicktaupe.jpg" alt="afficher image jeu click taupe">
+                    <p>Click Taupe</p>
+                </div>
+                <div>
+                    <img src="snake.jpg" alt="afficher image jeu snake">
+                    <p>Snake</p>
+                </div>
+                <div>
+                    <img src="pendu.jpg" alt="afficher image jeu pendu">
+                    <p>Pendu</p>
+                </div>
+                <div>
+                    <img src="rexjump.jpg" alt="afficher image jeu Rex jump">
+                    <p>Rex Jump</p>
+                </div>
             </section>  
             <section>
-                <img src="bataillenavale.jpg" alt="afficher image jeu bataille naval">
-                <img src="demineur.jpg" alt="afficher image jeu démineur">
-                <img src="combatpokemon.jpg" alt="afficher image jeu combats pokemon">
+                <div>
+                    <img src="bataillenavale.jpg" alt="afficher image jeu bataille naval">
+                    <p>Bataille Navale</p>
+                </div>
+                <div>
+                    <img src="demineur.jpg" alt="afficher image jeu démineur">
+                    <p>Démineur</p>
+                </div>
+                <div>
+                    <img src="combatpokemon.jpg" alt="afficher image jeu combats pokémon">
+                    <p>Combats Pokémon</p>
+                </div>
             </section>  
             <section>
-                <img src="blackjack.jpg" alt="afficher image jeu black jack">
-                <img src="jeuoie.jpg" alt="afficher image jeu de l'oie">
+                <div>
+                    <img src="blackjack.jpg" alt="afficher image jeu black jack">
+                    <p>Black Jack</p>
+                </div>
+                <div>
+                    <img src="jeuoie.jpg" alt="afficher image jeu de l'oie">
+                    <p>Jeu de l'oie</p>
+                </div>
             </section>  
             <section>
-                <img src="jdr.jpg" alt="afficher image jeu jdr">
+                <div>
+                    <img src="jdr.jpg" alt="afficher image jeu jdr">  
+                    <p>JDR</p>
+                </div>
             </section>      
         </main>
     </body>

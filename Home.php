@@ -17,7 +17,7 @@
                     <p class="titre">Nombre mystère</p>
                 </article>
                 <article>
-                    <a href="memory.php">
+                    <a href="memory.html">
                         <img src="memory.jpg" alt="afficher image jeu memory" class="logo">
                     </a>
                     <p class="titre">Memory</p>

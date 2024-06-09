@@ -7,18 +7,22 @@
     <link rel="stylesheet" href="memory.css">
 </head>
 <body>
-    <div class="menu">
-        <label for="difficulty">Select Difficulty: </label>
-        <select id="difficulty" onchange="setDifficulty()">
-            <option value="Easy">Easy</option>
-            <option value="Medium">Medium</option>
-            <option value="Hard">Hard</option>
-        </select>
-    </div>
-
-    <div id="gameBoard" class="grid"></div>
-    <a href="Home.php"><button id="victoryButton" class="hidden">You Win !</button></a>
-
-    <script src="memory.js"></script>
+    <header>
+        <h1 class="titre">Web Flash Game</h1>
+    </header>
+    <main>
+        <div class="menu">
+            <label for="difficulty">Select Difficulty: </label>
+            <select id="difficulty" onchange="setDifficulty()">
+                <option value="Easy" selected>Easy</option>
+            </select>
+        </div>
+    
+        <div id="gameBoard" class="grid"></div>
+        <a href="Home.php"><button id="victoryButton" class="hidden">You Win !</button></a>
+        <div id="message" class="hidden"></div>
+    
+        <script src="memory.js"></script>
+    </main>
 </body>
 </html>

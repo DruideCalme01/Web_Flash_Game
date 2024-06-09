@@ -25,6 +25,16 @@ function createBoard(rows, columns) {
     document.getElementById('victoryButton').classList.add('hidden');
 }
 
+function showMessage(message, type) {
+    const messageDiv = document.getElementById('message');
+    messageDiv.textContent = message;
+    messageDiv.className = type; 
+    messageDiv.style.display = 'block';
+    setTimeout(() => {
+        messageDiv.style.display = 'none';
+    }, 3000);
+}
+
 function onButtonClick(index, icon, button) {
     if (!canClick || button.textContent !== ' ' || button.disabled) return;
 
@@ -36,7 +46,7 @@ function onButtonClick(index, icon, button) {
     } else {
         canClick = false;
         if (firstButton.textContent === button.textContent) {
-            alert('You found a match!');
+            showMessage('You found a match!', 'success');
             firstButton.disabled = true;
             button.disabled = true;
             matchesFound++;
@@ -46,7 +56,7 @@ function onButtonClick(index, icon, button) {
             resetSelections();
         } else {
             setTimeout(() => {
-                alert('Not a match! Try again.');
+                showMessage('Not a match! Try again.', 'error');
                 firstButton.textContent = ' ';
                 button.textContent = ' ';
                 resetSelections();
@@ -62,21 +72,10 @@ function resetSelections() {
 }
 
 function setDifficulty() {
-    const difficulty = document.getElementById('difficulty').value;
-    if (difficulty === 'Easy') {
-        boardSize = { rows: 4, columns: 4 };
-    } else if (difficulty === 'Medium') {
-        boardSize = { rows: 4, columns: 6 };
-    } else if (difficulty === 'Hard') {
-        boardSize = { rows: 6, columns: 6 };
-    }
-    createBoard(boardSize.rows, boardSize.columns);
-}
-
-function resetGame() {
+    boardSize = { rows: 4, columns: 4 };
     createBoard(boardSize.rows, boardSize.columns);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    createBoard(boardSize.rows, boardSize.columns);
+    setDifficulty(); 
 });

@@ -6,6 +6,7 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
+    text-align: center; /* Center align text */
 }
 
 .grid {
@@ -51,8 +52,8 @@ body {
 }
 
 #victoryButton {
-    margin-top: 20px; 
-    padding: 8px 10px;
-    font-size: 15px;
+    margin-top: 20px; /* Add space above the victory button */
+    padding: 8px 16px; /* Adjust padding to make the button smaller */
+    font-size: 16px; /* Reduce font size */
     cursor: pointer;
 }

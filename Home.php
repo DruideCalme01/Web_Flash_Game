@@ -13,8 +13,8 @@
         <main>
             <section>
                 <article>
-                    <a href="nbrmystere.html">
-                        <img src="nbrmystere.jpg" alt="afficher image jeu nbr mystere" class="logo">
+                    <a href="nbrmystere/nbrmystere.html">
+                        <img src="nbrmystere/nbrmystere.jpg" alt="afficher image jeu nbr mystere" class="logo">
                     </a>
                     <p class="titre">Nombre mystère</p>
                 </article>

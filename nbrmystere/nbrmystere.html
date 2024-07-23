@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre Mystère</title>
+    <link rel="stylesheet" href="nbrmystere.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jeu de Nombre Mystère</h1>
+        <p>Devinez le nombre entre 0 et 100 :</p>
+        <input type="number" id="guessInput" min="0" max="100" placeholder="Entrez un nombre">
+        <button id="guessButton" onclick="makeGuess()">Deviner</button>
+        <p id="message"></p>
+        <a href="Home.php"><button id="victoryButton" class="hidden">You Win !</button></a>
+    </div>
+    <script src="nbrmystere.js"></script>
+</body>
+</html>

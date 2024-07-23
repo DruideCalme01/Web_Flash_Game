@@ -13,7 +13,9 @@
         <main>
             <section>
                 <article>
-                    <img src="nbrmystere.jpg" alt="afficher image jeu nbr mystere" class="logo">
+                    <a href="nbrmystere.html">
+                        <img src="nbrmystere.jpg" alt="afficher image jeu nbr mystere" class="logo">
+                    </a>
                     <p class="titre">Nombre mystère</p>
                 </article>
                 <article>

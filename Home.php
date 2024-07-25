@@ -19,13 +19,15 @@
                     <p class="titre">Nombre mystère</p>
                 </article>
                 <article>
-                    <a href="memory.html">
-                        <img src="memory.jpg" alt="afficher image jeu memory" class="logo">
+                    <a href="memory/memory.html">
+                        <img src="memory/memory.jpg" alt="afficher image jeu memory" class="logo">
                     </a>
                     <p class="titre">Memory</p>
                 </article>
                 <article>
-                    <img src="PPC.jpg" alt="afficher image jeu pierre feuille ciseux" class="logo">
+                    <a href="PFC/PFC.html">
+                        <img src="PFC/PFC.jpg" alt="afficher image jeu pierre feuille ciseux" class="logo">
+                    </a>
                     <p class="titre">Pierre/Papier/Ciseau</p>
                 </article>
                 <article>

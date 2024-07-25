@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pierre Feuille Ciseau</title>
+    <link rel="stylesheet" href="PFC.css">
+</head>
+<body>
+    <h1>Pierre Feuille Ciseau</h1>
+    <div id="game">
+        <div id="player-hand">
+            <h2>Vos cartes</h2>
+            <ul id="player-cards"></ul>
+        </div>
+        <div id="computer-hand">
+            <h2>Cartes de l'ordinateur</h2>
+            <ul id="computer-cards"></ul>
+        </div>
+        <div id="result">
+            <h2>Résultat</h2>
+            <p id="result-message"></p>
+            <button id="win-button" style="display:none;">Gagner</button>
+            <button id="lose-button" style="display:none;">Perdre</button>
+            <button id="reset-button" style="display:none;">Recommencer</button>
+        </div>
+        <p>Score - Vous: <span id="player-score">0</span> | Ordinateur: <span id="computer-score">0</span></p>
+    </div>
+    <script src="PFC.js"></script>
+</body>
+</html>
